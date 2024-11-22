@@ -45,5 +45,5 @@ Please note that you are not allowed to delete licenses listed in certain files,
 
 ---
 <a href="https://x.com/IOTGTechnology">
-  <img src="https://github.com/IOTGTechnology/Social-Media-Icons/blob/main/X.png" alt="Twitter" width="30"/>
+  <img src="https://github.com/IOTGTechnology/Social-Media-Icons/blob/main/X.png" alt="Twitter" width="30"/> Twitter X
 </a>
