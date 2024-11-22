@@ -44,6 +44,12 @@ You are free to duplicate the design of the IOTG Technology website for personal
 Please note that you are not allowed to delete licenses listed in certain files, especially those marked with //MIT License comments, such as in the AOS JS, jQuery JS, and Swiper JS sections. In addition, selling or trading this website design without our official permission is also not permitted.You are also prohibited from using copies of our website design for criminal activities or any actions that may harm others. We are not responsible for any misuse of this design, including in streaming activities or other forms of usage.
 
 ---
-<a href="https://x.com/IOTGTechnology" style="display: inline-block; width: 100%; max-width: 120px; background-color: #00FDA; padding: 10px; border-radius: 10px; text-align: center; box-sizing: border-box;">
-  <img src="https://github.com/IOTGTechnology/Social-Media-Icons/blob/main/X.png" alt="Twitter" style="width: 100%; height: auto; border-radius: 8px;"/>
-</a>
+<div align="center">
+  
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/IOTGTechnology)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourusername)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/yourusername)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/yourusername)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/IOTGTechnology)
+
+</div>
