@@ -38,4 +38,12 @@ At IOTG TECHNOLOGY, our mission is to deliver environmentally friendly and susta
 - JQUERY **[License](https://jquery.com/license/)**
 - SWIPER **[License](https://github.com/nolimits4web/swiper/blob/master/LICENSE)**
 
-## 👤 USER GUIDE
+## ⚠️ Important Note
+You can duplicate the IOTG Technology website design without any **Attributions** for personal or commercial projects, but anything given for the design we allow we would appreciate the little things
+
+You are not allowed to delete the license in some files that we provide // License in the JS Script section.You are also not allowed to sell and sell website designs without our permission
+
+---
+## Our Social Media
+- Instagram **[<img src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/instagram.svg" alt="Instagram" width="30" height="30">](https://www.instagram.com/iotgtechnology/)**
+- Twitter **[<img src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/twitter.svg" alt="Twitter" width="30" height="30">](https://x.com/IOTGTechnology)**
