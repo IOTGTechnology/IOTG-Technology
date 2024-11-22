@@ -71,11 +71,11 @@ Please note that you are not allowed to delete licenses listed in certain files,
 <div align="center">
   
 [![Twitter](https://img.shields.io/badge/Twitter-aqua?style=for-the-badge&logo=twitter&logoColor=black)](https://x.com/IOTGTechnology)
-[![TikTok](https://img.shields.io/badge/TikTok-black?style=for-the-badge&logo=tiktok&logoColor=aqua)](https://tiktok.com/@yourusername)
-[![Threads](https://img.shields.io/badge/Threads-aqua?style=for-the-badge&logo=threads&logoColor=black)](https://threads.net/@yourusername)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-black?style=for-the-badge&logo=linkedin&logoColor=aqua)](https://linkedin.com/in/yourusername)
-[![Instagram](https://img.shields.io/badge/Instagram-aqua?style=for-the-badge&logo=instagram&logoColor=black)](https://instagram.com/yourusername)
-[![YouTube](https://img.shields.io/badge/YouTube-black?style=for-the-badge&logo=youtube&logoColor=aqua)](https://youtube.com/yourusername)
+[![TikTok](https://img.shields.io/badge/TikTok-black?style=for-the-badge&logo=tiktok&logoColor=aqua)](https://www.tiktok.com/@iotgtechnology)
+[![Threads](https://img.shields.io/badge/Threads-aqua?style=for-the-badge&logo=threads&logoColor=black)](https://www.threads.net/@iotgtechnology)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-black?style=for-the-badge&logo=linkedin&logoColor=aqua)](https://www.linkedin.com/in/iotg-technology-615a80337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+[![Instagram](https://img.shields.io/badge/Instagram-aqua?style=for-the-badge&logo=instagram&logoColor=black)](https://www.instagram.com/iotgtechnology)
+[![YouTube](https://img.shields.io/badge/YouTube-black?style=for-the-badge&logo=youtube&logoColor=aqua)](https://youtube.com/@iotgtechnology)
 [![GitHub](https://img.shields.io/badge/GitHub-aqua?style=for-the-badge&logo=github&logoColor=black)](https://github.com/IOTGTechnology)
 
 </div>
