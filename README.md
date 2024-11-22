@@ -44,6 +44,6 @@ You are free to duplicate the design of the IOTG Technology website for personal
 Please note that you are not allowed to delete licenses listed in certain files, especially those marked with //MIT License comments, such as in the AOS JS, jQuery JS, and Swiper JS sections. In addition, selling or trading this website design without our official permission is also not permitted.You are also prohibited from using copies of our website design for criminal activities or any actions that may harm others. We are not responsible for any misuse of this design, including in streaming activities or other forms of usage.
 
 ---
-<a href="https://x.com/IOTGTechnology">
-  <img src="https://github.com/IOTGTechnology/Social-Media-Icons/blob/main/X.png" alt="Twitter" width="30"/> Twitter X
+<a href="https://x.com/IOTGTechnology" style="display: inline-block; width: 100%; max-width: 120px; background-color: #00FDA; padding: 10px; border-radius: 10px; text-align: center; box-sizing: border-box;">
+  <img src="https://github.com/IOTGTechnology/Social-Media-Icons/blob/main/X.png" alt="Twitter" style="width: 100%; height: auto; border-radius: 8px;"/>
 </a>
