@@ -39,9 +39,9 @@ At IOTG TECHNOLOGY, our mission is to deliver environmentally friendly and susta
 - SWIPER **[License](https://github.com/nolimits4web/swiper/blob/master/LICENSE)**
 
 ## ⚠️ Important Note
-You can duplicate the IOTG Technology website design without any **Attributions** for personal or commercial projects, but anything given for the design we allow we would appreciate the little things
+You are free to duplicate the design of the IOTG Technology website for personal or commercial purposes without requiring attribution. However, we greatly appreciate any simple form of appreciation you can provide.
 
-You are not allowed to delete the license in some files that we provide // License in the JS Script section.You are also not allowed to sell and sell website designs without our permission
+Please note that you are not allowed to delete the license listed on some files, especially in the JS script section where we put the // MIT License sign. In addition, selling or trading this website design without our official permission is not permitted.
 
 ---
 ## Our Social Media
