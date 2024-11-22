@@ -44,3 +44,14 @@ You are free to duplicate the design of the IOTG Technology website for personal
 Please note that you are not allowed to delete licenses listed in certain files, especially those marked with //MIT License comments, such as in the AOS JS, jQuery JS, and Swiper JS sections. In addition, selling or trading this website design without our official permission is also not permitted.You are also prohibited from using copies of our website design for criminal activities or any actions that may harm others. We are not responsible for any misuse of this design, including in streaming activities or other forms of usage.
 
 ---
+<div align="center">
+  
+[![Twitter](https://img.shields.io/badge/Twitter-aqua?style=for-the-badge&logo=twitter&logoColor=black)](https://x.com/IOTGTechnology)
+[![TikTok](https://img.shields.io/badge/TikTok-black?style=for-the-badge&logo=tiktok&logoColor=aqua)](https://tiktok.com/@yourusername)
+[![Threads](https://img.shields.io/badge/Threads-aqua?style=for-the-badge&logo=threads&logoColor=black)](https://threads.net/@yourusername)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-black?style=for-the-badge&logo=linkedin&logoColor=aqua)](https://linkedin.com/in/yourusername)
+[![Instagram](https://img.shields.io/badge/Instagram-aqua?style=for-the-badge&logo=instagram&logoColor=black)](https://instagram.com/yourusername)
+[![YouTube](https://img.shields.io/badge/YouTube-black?style=for-the-badge&logo=youtube&logoColor=aqua)](https://youtube.com/yourusername)
+[![GitHub](https://img.shields.io/badge/GitHub-aqua?style=for-the-badge&logo=github&logoColor=black)](https://github.com/IOTGTechnology)
+
+</div>
