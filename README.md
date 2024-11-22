@@ -33,9 +33,9 @@ At IOTG TECHNOLOGY, our mission is to deliver environmentally friendly and susta
 
 ---
 ## 📋 License Technology used on the website
--Bootstrap **[License](https://getbootstrap.com/docs/4.0/about/license/)**
--AOS Animation **[License](https://github.com/michalsnik/aos/blob/next/LICENSE)**
--JQUERY **[License](https://jquery.com/license/)**
--SWIPER **[License](https://github.com/nolimits4web/swiper/blob/master/LICENSE)**
+- Bootstrap **[License](https://getbootstrap.com/docs/4.0/about/license/)**
+- AOS Animation **[License](https://github.com/michalsnik/aos/blob/next/LICENSE)**
+- JQUERY **[License](https://jquery.com/license/)**
+- SWIPER **[License](https://github.com/nolimits4web/swiper/blob/master/LICENSE)**
 
 ## 👤 USER GUIDE
