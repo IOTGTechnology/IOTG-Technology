@@ -1,0 +1,77 @@
+/* Contact Section */
+section.py-5 {
+  background-color: black;
+  padding: 50px 0;
+}
+
+section h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: white;
+  margin-bottom: 30px;
+}
+
+form .form-control {
+  border-radius: 10px;
+  border: 1px solid aqua;
+  padding: 12px;
+  font-size: 1rem;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+form .form-control:focus {
+  border-color: aqua;
+  box-shadow: 0 0 10px rgba(0, 250, 218, 0.5);
+}
+
+form textarea.form-control {
+  resize: none;
+}
+
+button.btn.button-contact {
+  background-color: aqua;
+  color: black;
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  width: 100%;
+}
+
+button.btn.button-contact:hover {
+  background-color: #008c75;
+  transform: scale(1.05);
+}
+
+button.btn.button-contact:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 250, 218, 0.7);
+}
+
+form .row .col-md-6 {
+  display: flex;
+  flex-direction: column;
+}
+
+form .row .col-md-6 input {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  section h2 {
+    font-size: 2rem;
+  }
+
+  form .form-control {
+    padding: 10px;
+  }
+
+  button.btn.button-contact {
+    padding: 15px;
+  }
+}

@@ -1,0 +1,38 @@
+/*******************/
+/* BUTTON SECTION */
+/*****************/
+.button-home {
+  color: black;
+  background-image: linear-gradient(to right, #00ffff, aqua);
+  border-radius: 15px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.button-home:hover {
+  background-image: linear-gradient(to right, #00a3cc, #00ffff);
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 163, 204, 0.5);
+}
+
+/******************************/
+/* BUTTON LEARN MORE SECTION */
+/****************************/
+.About-Button {
+  color: black;
+  background-image: linear-gradient(to right, #00ffff, aqua);
+  border-radius: 15px;
+  border: none;
+  padding: 8px 18px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+.About-Button:hover {
+  background-image: linear-gradient(to right, #00a3cc, #00ffff);
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 163, 204, 0.5);
+}

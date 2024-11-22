@@ -1,0 +1,144 @@
+/* Modal Backdrop */
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+}
+
+/* Body when modal is open */
+body.modal-open {
+  overflow: hidden;
+  padding-right: 0 !important;
+}
+
+/* Modal Container */
+.modal {
+  overflow-y: hidden; 
+  padding-right: 0 !important;
+}
+
+.modal-dialog {
+  margin: 1.75rem auto;
+  max-width: 900px;
+  height: calc(100vh - 3.5rem);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Modal Content */
+.modal-content {
+  background: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Modal Header */
+.modal-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  flex-shrink: 0; 
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+}
+
+.TittleModalBox-Icon {
+  margin-right: 10px;
+  color: black;
+}
+
+/* Modal Body */
+.modal-body {
+  padding: 2rem;
+  overflow-y: auto;
+  flex: 1;
+}
+
+/* List Items */
+.list-unstyled li {
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.list-unstyled li i {
+  color: black;
+  font-size: 1.2rem;
+}
+
+/* Commitment Cards */
+.commitment-card {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+  height: 100%;
+}
+
+.commitment-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.commitment-card i {
+  font-size: 2rem;
+  color: black;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+/* Modal Footer */
+.modal-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  flex-shrink: 0;
+}
+
+/* Custom Scrollbar */
+.modal-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal-body::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+  background: rgba(0, 102, 204, 0.5);
+  border-radius: 4px;
+}
+
+.modal-body::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 102, 204, 0.7);
+}
+
+/* Animation */
+.modal.fade .modal-dialog {
+  transform: scale(0.95);
+  transition: transform 0.2s ease-out;
+}
+
+.modal.show .modal-dialog {
+  transform: scale(1);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .modal-dialog {
+    margin: 1rem;
+    height: calc(100vh - 2rem);
+  }
+  
+  .modal-body {
+    padding: 1.5rem;
+  }
+}

@@ -1,0 +1,256 @@
+/*******************/
+/* NAVBAR SECTION */
+/*****************/
+.navbar-brand span {
+  color: aqua;
+}
+
+/* BODY SECTION */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* HERO SECTION */
+.hero {
+  position: relative;
+  background: black;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+
+
+.hero .container {
+  position: relative;
+  z-index: 2;
+}
+#typing-text {
+  border-right: 2px solid aqua;
+  color: aqua;
+  padding-right: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* ABOUT SECTION */
+img.img-fluid {
+  width: 100%;
+  height: auto;
+  border-radius: 50%; 
+  transition: border-radius 0.3s ease;
+}
+
+@media (min-width: 992px) {
+  img.img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+#About {
+    padding-top: 100px; 
+    margin-top: 50px; 
+}
+#About {
+    scroll-margin-top: 100px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* SERVICE SECTION */
+#Services {
+    padding-top: 100px; 
+    margin-top: 100px; 
+}
+#Services {
+    scroll-margin-top: 100px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* CONTACT SECTION */
+#Contact {
+    padding-top: 100px; 
+    margin-top: 100px; 
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+#Contact {
+    scroll-margin-top: 100px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* TESTIMONY SECTION SLIDER */
+.testimonial-slider {
+  padding: 20px 0;
+}
+
+.testimonial-slider .swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-slider .swiper-slide {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.testimonial-slider .card {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 10px;
+}
+
+.testimonial-slider .card-body {
+  padding: 30px;
+}
+
+.testimonial-slider .card-text {
+  font-style: italic;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.testimonial-slider .d-flex.align-items-center img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-slider .d-flex.align-items-center h5 {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.testimonial-slider .d-flex.align-items-center p {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.swiper-pagination {
+  bottom: 10px;
+}
+
+.swiper-pagination-bullet {
+  background-color: aqua;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: aqua;
+  opacity: 1;
+}
+
+
+
+/* FOOERS SECTION */
+.footer {
+    background: linear-gradient(135deg, black 0%, aqua 100%);
+    color: aliceblue;
+    padding: 60px 0 30px;
+}
+
+.footer h5 {
+    font-weight: 600;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.footer h5::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 50px;
+    height: 2px;
+    background: #fff;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-links a:hover {
+    color: aquamarine;
+    transform: translateX(5px);
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background: aqua;
+    color: black;
+    transform: translateY(-3px);
+}
+
+.partners-slider {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.partner-logo {
+    height: 60px;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 40px 0 20px;
+    }
+    .footer-column {
+        margin-bottom: 30px;
+    }
+}
