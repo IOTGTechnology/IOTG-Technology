@@ -23,3 +23,19 @@ At IOTG TECHNOLOGY, our mission is to deliver environmentally friendly and susta
 **ASSIGNED PRODUCTION**
 **TESTING AND CERTIFICATION**
 
+---
+## 💻 Technology used on the website
+- Bootstrap CSS **[Explore](https://getbootstrap.com/)**
+- Bootstrap Icon **[Explore](https://icons.getbootstrap.com/)**
+- Animation AOS **[Explore](https://michalsnik.github.io/aos/)**
+- JQUERY **[Explore](https://jquery.com/)**
+- SWIPER **[Explore](https://swiperjs.com/)**
+
+---
+## 📋 License Technology used on the website
+-Bootstrap **[License](https://getbootstrap.com/docs/4.0/about/license/)**
+-AOS Animation **[License](https://github.com/michalsnik/aos/blob/next/LICENSE)**
+-JQUERY **[License](https://jquery.com/license/)
+-SWIPER **[License](https://github.com/nolimits4web/swiper/blob/master/LICENSE)
+
+## 👤 USER GUIDE
