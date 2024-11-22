@@ -41,7 +41,7 @@ At IOTG TECHNOLOGY, our mission is to deliver environmentally friendly and susta
 ## ⚠️ Important Note
 You are free to duplicate the design of the IOTG Technology website for personal or commercial purposes without requiring attribution. However, we greatly appreciate any simple form of appreciation you can provide.
 
-Please note that you are not allowed to delete the license listed on some files, especially in the JS script section where we put the // MIT License sign. In addition, selling or trading this website design without our official permission is not permitted.
+Please note that you are not allowed to delete licenses listed in certain files, especially those marked with //MIT License comments, such as in the AOS JS, jQuery JS, and Swiper JS sections. In addition, selling or trading this website design without our official permission is also not permitted.
 
 ---
 ## Our Social Media
