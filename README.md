@@ -56,7 +56,6 @@ At **IOTG TECHNOLOGY**, our mission is to deliver environmentally friendly and s
 - SWIPER **[License](https://github.com/nolimits4web/swiper/blob/master/LICENSE)**
 
 ---
-## ⚠️ Important Note
 <div align="center">
 
 [![Warning](https://img.shields.io/badge/⚠️-Important_Notice-black?style=for-the-badge&logoColor=aqua)](#-)
