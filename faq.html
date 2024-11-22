@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ - IOTG Technology</title>
+  
+  <!-- BOOTSTRAP CDN CSS & ICON -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  
+  <!-- CDN AOS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  
+  <!-- MY CSS -->
+  <link rel="stylesheet" href="CSS/Custom.css">
+  <link rel="stylesheet" href="CSS/Button.css">
+  <link rel="stylesheet" href="CSS/Icon.css">
+  <link rel="icon" href="Assets/Img/favicon.png">
+  <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .faq-section {
+            padding: 80px 0;
+            background-color: black;
+        }
+
+        .accordion-item {
+            margin-bottom: 1rem;
+            border-radius: 8px !important;
+            overflow: hidden;
+            background-color: #111;
+            border: 1px solid aqua;
+        }
+
+        .accordion-button {
+            background-color: black;
+            color: white;
+            border: none;
+        }
+
+        .accordion-button:not(.collapsed) {
+            background-color: #111;
+            color: aqua;
+            box-shadow: 0 0 10px aqua;
+        }
+
+        .accordion-button::after {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='aqua'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        }
+
+        .accordion-button:not(.collapsed)::after {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='aqua'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        }
+
+        .accordion-button:focus {
+            box-shadow: none;
+            border-color: aqua;
+        }
+
+        .accordion-body {
+            background-color: black;
+            color: white;
+        }
+
+        .faq-icon {
+            margin-right: 10px;
+            font-size: 1.2rem;
+            color: aqua;
+        }
+
+        h2 {
+            color: aqua;
+        }
+
+        .list-group-item {
+            background-color: black;
+            color: white;
+            border-color: aqua;
+            border-width: 1px;
+            border-style: dashed;
+            margin-bottom: 5px;
+            border-radius: 4px;
+        }
+
+        .list-group-item strong {
+            color: aqua;
+        }
+
+        /* Hover effects */
+        .accordion-button:hover {
+            background-color: #111;
+            color: aqua;
+        }
+
+        .list-group-item:hover {
+            background-color: #111;
+            border-style: solid;
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: black;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: aqua;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #111;
+        }
+    </style>
+  
+</head>
+<body class="bg-black text-white">
+    
+    <!-- NAVBAR SECTION -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top rounded-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="index.html#hero"><b><span>IOTG</span></b> Technology</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#hero">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#Services">Services</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Drop
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="terms.html">Terms</a></li>
+            <li><a class="dropdown-item" href="privacy.html">Privacy</a></li>
+            <li><a class="dropdown-item" href="disclaimer.html">Disclaimer</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#Contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="faq-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h2 class="text-center mb-5" data-aos="fade-up">Frequently Asked Questions</h2>
+                
+                <div class="accordion" id="faqAccordion">
+                    <!-- What is IOTG Technology? -->
+                    <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                <i class="bi bi-question-circle faq-icon"></i>
+                                What is IOTG Technology?
+                            </button>
+                        </h2>
+                        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                IOTG is an innovative company specializing in the development and production of smart devices based on open source technology, with a commitment to delivering smart solutions that can be accessed and developed by all groups.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- How does it work? -->
+                    <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                <i class="bi bi-gear faq-icon"></i>
+                                How does it work?
+                            </button>
+                        </h2>
+                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <ol class="list-group list-group-flush">
+                                    <li class="list-group-item">Open Source Based Development: IOTG utilizes open source technology to ensure convenience and openness in product development.</li>
+                                    <li class="list-group-item">Smart Device Design and Production: Each device is designed with a focus on efficiency and high performance.</li>
+                                    <li class="list-group-item">Compatibility and Customization: Our products support broad compatibility and customization.</li>
+                                    <li class="list-group-item">Ongoing Support: We provide regular updates and technical support through our community.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- When can I start? -->
+                    <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                <i class="bi bi-clock faq-icon"></i>
+                                When can I start?
+                            </button>
+                        </h2>
+                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <p>Start right now! We have designed an easy process:</p>
+                                <ol class="list-group list-group-flush">
+                                    <li class="list-group-item">Get in touch with our team for complete information</li>
+                                    <li class="list-group-item">Select and browse our catalog</li>
+                                    <li class="list-group-item">Follow the initial guide we provide</li>
+                                    <li class="list-group-item">Start your journey and explore the potential</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- What are the costs? -->
+                    <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                <i class="bi bi-currency-dollar faq-icon"></i>
+                                What are the costs?
+                            </button>
+                        </h2>
+                        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item"><strong>Device Price:</strong> Competitive prices depending on specifications</li>
+                                    <li class="list-group-item"><strong>Service Subscription:</strong> Optional plans for additional features</li>
+                                    <li class="list-group-item"><strong>Customization Fee:</strong> Based on project complexity</li>
+                                    <li class="list-group-item"><strong>Free for Open Source:</strong> Several products available for free</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- How to Customize devices in IOTG? -->
+                    <div class="accordion-item" data-aos="fade-up" data-aos-delay="500">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                <i class="bi bi-tools faq-icon"></i>
+                                How to Customize devices in IOTG?
+                            </button>
+                        </h2>
+                        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <ol class="list-group list-group-flush">
+                                    <li class="list-group-item">Identify Your Needs</li>
+                                    <li class="list-group-item">Consult with the IOTG Team</li>
+                                    <li class="list-group-item">Planning Process</li>
+                                    <li class="list-group-item">Implementation and Testing</li>
+                                    <li class="list-group-item">Delivery and Support</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- What are IOTG Technology products? -->
+                    <div class="accordion-item" data-aos="fade-up" data-aos-delay="600">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                                <i class="bi bi-box faq-icon"></i>
+                                What are IOTG Technology products?
+                            </button>
+                        </h2>
+                        <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                <h5>Single Board Computer (SBC)</h5>
+                                <p>IOTG SBC Green: A high-performance, energy-efficient computing solution designed for IoT, AI, and lightweight server applications.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+    <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <!-- About Column -->
+            <div class="col-lg-4 col-md-6 footer-column" data-aos="fade-up" data-aos-delay="100">
+                <h5>About Us</h5>
+                <p class="mb-4">IOTG Technology is an innovative company that provides advanced open-source-based devices, designed to support modern technological needs with high flexibility and efficiency.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/share/15A8P6ziuj/"><i class="bi bi-facebook"></i></a>
+                    <a href="https://x.com/IOTGTechnology"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.instagram.com/iotgtechnology"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+
+            <!-- Quick Links Column -->
+            <div class="col-lg-2 col-md-6 footer-column" data-aos="fade-up" data-aos-delay="200">
+                <h5>Quick Links</h5>
+                <ul class="footer-links">
+                    <li><a href="index.html#hero"><i class="bi bi-chevron-right"></i> Home</a></li>
+                    <li><a href="index.html#About"><i class="bi bi-chevron-right"></i> About</a></li>
+                    <li><a href="index.html#Services"><i class="bi bi-chevron-right"></i> Services</a></li>
+                    <li><a href="forto"><i class="bi bi-chevron-right"></i> Portfolio</a></li>
+                    <li><a href="index.html#Contact"><i class="bi bi-chevron-right"></i> Contact</a></li>
+                </ul>
+            </div>
+          
+          <!-- Usefulink Column -->
+            <div class="col-lg-3 col-md-6 footer-column" data-aos="fade-up" data-aos-delay="300">
+                <h5>Usefull Link</h5>
+                <ul class="footer-links">
+                    <li><a href="terms.html"><i class="bi bi-check2-circle"></i> Terms</a></li>
+                    <li><a href="privacy.html"><i class="bi bi-check2-circle"></i> Privacy</a></li>
+                    <li><a href="disclaimer.html"><i class="bi bi-check2-circle"></i> Disclaimer</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Column -->
+            <div class="col-lg-3 col-md-6 footer-column" data-aos="fade-up" data-aos-delay="400">
+                <h5>Contact Info</h5>
+                <ul class="footer-links">
+                    <li><i class="bi bi-geo-alt"></i> Jl.Letzen Mashudi Kp.Gunung Muncang Kel.Setiajaya RT03/RW09</li>
+                    <li><i class="bi bi-telephone"></i> +62 89651837578</li>
+                    <li><i class="bi bi-envelope"></i> contact@iotgtechnology.com</li>
+                </ul>
+            </div>
+        </div>
+
+    <!-- Divider -->
+    <hr class="my-4">
+
+    <!-- Bottom Footer -->
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center text-md-start">
+        <p class="mb-md-0 text-white">© 2024 IOTG Technology.All rights reserved.</p>
+      </div>
+      </div>
+    </div>
+  <!-- SCRIPT BOOTSTRAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+  <!-- SCRIPT AOS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="Script/AOS.js"></script>
+  
+  <!-- SCRIPT -->
+  <script src="Script/Custom.js"></script>
+      
+</footer>
+</body>
+</html>
